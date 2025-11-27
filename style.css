@@ -1,0 +1,24 @@
+html,
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('flappy-bird-assets-1.1.0/sprites/background-day.png');
+  background-size: 250% auto;
+  /* Thoda zoom */
+  background-position: center top;
+  /* Upar se dikhaye */
+  overflow: hidden;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(#70c5ce, #fff);
+  border: 2px solid #000;
+  border-radius: 10px;
+}
